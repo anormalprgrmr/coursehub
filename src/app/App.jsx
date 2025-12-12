@@ -1,10 +1,14 @@
-function App() {
+import { Outlet } from "react-router-dom";
+import NavBar from "../shared/navbar/NavBar"
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
+function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <NavBar />
+      <Outlet />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
