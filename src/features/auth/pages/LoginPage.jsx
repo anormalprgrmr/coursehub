@@ -8,7 +8,7 @@ export default function LoginPage() {
 
   function handleLogin(email, pass) {
     const res = auth.login(email, pass);
-    if (res.success) nav("/profile"); // redirect to profile
+    if (res.success) nav("/profile");
     return res;
   }
 

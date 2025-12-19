@@ -1,4 +1,4 @@
-import { getCurrentUser } from "../auth/authService";
+import { getCurrentUser } from "../auth/auth.service";
 
 export function getUserProfile() {
   return getCurrentUser();

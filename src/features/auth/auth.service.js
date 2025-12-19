@@ -14,7 +14,6 @@ export function saveUsers(users) {
 export function signupUser({ name, email, password }) {
   const users = getUsers();
 
-  // check duplicate email
   if (users.some(u => u.email === email)) {
     return { success: false, message: "Email already registered" };
   }

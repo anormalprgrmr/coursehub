@@ -9,7 +9,7 @@ export default function SignupPage() {
 
   function handleSignup(data) {
     const res = auth.signup(data);
-    if (res.success) nav("/"); // redirect to home
+    if (res.success) nav("/");
     return res;
   }
 

@@ -37,7 +37,6 @@ export default function SignupForm({ onSignup }) {
 
     if (!result.success) return setError(result.message);
 
-    // success
   }
 
   return (
