@@ -1,0 +1,22 @@
+.custom-search-group {
+    border: 1px solid #dee2e6;
+}
+
+.custom-search-group:hover {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0.25);
+}
+
+.custom-search-group .btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.custom-search-group .form-control::placeholder {
+    color: #adb5bd; 
+    opacity: 1; 
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}

@@ -4,8 +4,9 @@ import App from "./App";
 import HomePage from "../features/courses/pages/HomePage";
 import LoginPage from "../features/auth/pages/LoginPage";
 import SignupPage from "../features/auth/pages/SignupPage";
-import ProfilePage from "../features/profile/pages/ProfilePage"
-import ProtectedRoute from "../shared/components/protectedRoute/ProtectedRoute"
+import ProfilePage from "../features/profile/pages/ProfilePage";
+import ProtectedRoute from "../shared/components/protectedRoute/ProtectedRoute";
+import CoursePage from '../features/course/pages/CoursePage'
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
             <ProfilePage />
           </ProtectedRoute>
         ),
+      },
+      {
+        path: "course/:id",
+        element: <CoursePage />,
       },
     ],
   },

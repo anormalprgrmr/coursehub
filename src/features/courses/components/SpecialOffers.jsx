@@ -6,10 +6,6 @@ export default function SpecialOffers({ data }) {
       <h5>Special Offers</h5>
       {data?.map((offer, index) => (
         <SpecialOfferCard data={offer}/>
-        //   <li key={offer.id || index}>
-        //     <h6>{offer.title}</h6>
-        //     {/* <p>{offer.description}</p> */}
-        //   </li>
       ))}
     </>
   );

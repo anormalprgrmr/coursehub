@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../shared/components/navbar/NavBar"
+import Footer from "../shared/components/footer/Footer"
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <NavBar />
       <Outlet />
+      <Footer />
     </>
   );
 }
