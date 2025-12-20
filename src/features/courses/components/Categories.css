@@ -1,0 +1,28 @@
+.categories-title {
+  font-size: 2rem;
+  /* padding-top: 0px; */
+}
+
+.categoty-card-main-wrapper {
+  /* border: 1px solid blue; */
+  padding: 10px 0px;
+  border-radius: 10px;
+  background-color: rgb(196, 208, 219);
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.categoty-card-main-wrapper:hover {
+  background-color: rgb(169, 158, 189);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-title {
+  text-align: center;
+}
+
+.category-image {
+  max-width: 100%;
+}

@@ -5,7 +5,7 @@ export default function CourseDetail({ data }) {
     <>
       <div>CourseDetail</div>
       
-      <p>{data.description}</p>
+      <p>{data.name}</p>
     </>
   );
 }

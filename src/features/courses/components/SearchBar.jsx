@@ -1,5 +1,5 @@
 import React from 'react';
-import './SearchBar.css'; // Assuming you'll create this CSS file
+import './SearchBar.css'; 
 
 export default function SearchBar() {
 
@@ -7,12 +7,10 @@ export default function SearchBar() {
         <div className="container-fluid my-4">
             <div className="row justify-content-center">
                 <div className="col-12 col-md-10 col-lg-8">
-                    {/* Heading for context */}
                     <h3 className="text-center mb-3 fs-5 text-muted">
                         What courses are you looking for?
                     </h3>
                     
-                    {/* Input Group for a clean, aligned look */}
                     <div className="input-group mb-3 shadow-lg rounded-3 overflow-hidden custom-search-group">
                         <input 
                             type="text" 
