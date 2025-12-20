@@ -154,3 +154,15 @@ export const courses = [
   }
 ];
 
+export const bookingHistory = [
+  {
+    course : "Web Design",
+    data:"13/5/2023",
+    status:"Completed"
+  },
+  {
+    course : "Backend",
+    data:"24/7/2024",
+    status:"Still Learning"
+  }
+]

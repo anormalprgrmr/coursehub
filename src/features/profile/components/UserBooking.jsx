@@ -7,10 +7,9 @@ export default function UserBookings({ bookings }) {
 
       {bookings.map((b) => (
         <div key={b.id} className="border rounded p-2 mb-2">
-          <strong>Course:</strong> {b.courseId} <br />
-          <strong>Seats:</strong> {b.seats} <br />
-          <strong>Date:</strong> {new Date(b.date).toLocaleDateString()} <br />
-          <strong>Status:</strong> {b.status}
+          <strong>Course:</strong> {b.course} <br />
+          <strong>Status:</strong> {b.status} <br />
+          <strong>Date:</strong> {b.date} <br />
         </div>
       ))}
     </div>

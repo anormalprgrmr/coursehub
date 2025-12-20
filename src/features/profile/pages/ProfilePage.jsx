@@ -28,7 +28,7 @@ export default function ProfilePage() {
 
   return (
     <div className={styles.profile_container}>
-      <h2 className={styles.profile_title}>Your Profile</h2>
+      <h2 className={`${styles.profile_title} mt-4 mb-5`}>Your Profile</h2>
 
       <UserInfo user={user} />
       <UserBookings bookings={bookings} />
