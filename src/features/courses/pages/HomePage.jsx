@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row mt-5">
           <SearchBar />
         </div>
         <div className="row">
