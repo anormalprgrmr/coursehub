@@ -1,0 +1,113 @@
+.course-detail-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 700px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.course-detail-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.course-header {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.course-image-wrapper {
+  float: left;
+  padding-right: 15px;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid #f0f0f0;
+}
+
+.course-info-header {
+  float: left;
+  padding-left: 15px; 
+}
+
+.course-title {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+/* --- Body --- */
+.course-body {
+  margin-bottom: 30px;
+}
+
+.course-body h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4CAF50; 
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.course-footer {
+  
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.course-price-col,
+.course-rating-col,
+.course-button-col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.course-price,
+.course-rating {
+  font-size: 18px;
+}
+
+.course-price {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.enroll-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.enroll-button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}

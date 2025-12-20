@@ -107,3 +107,50 @@ export const reviewsdata = [
   },
 ];
 
+export const courses = [
+  {
+    id: "1",
+    name: "Introduction to React",
+    description: "Learn the fundamentals of React.js, including components, props, state, and hooks.",
+    instructor: "Jane Doe",
+    duration: "8 weeks",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToc1bnD7rCvXMinX06dBFyhOuqCqc60DIzFg&s",
+    price: "$99",
+    rating: 4.8,
+    courseNumber: 150
+  },
+  {
+    id: "2",
+    name: "Advanced JavaScript",
+    description: "Dive deep into advanced JavaScript concepts like closures, prototypes, async/await, and more.",
+    instructor: "John Smith",
+    duration: "6 weeks",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToc1bnD7rCvXMinX06dBFyhOuqCqc60DIzFg&s",
+    price: "$120",
+    rating: 4.7,
+    courseNumber: 200
+  },
+  {
+    id: "3",
+    name: "Python for Data Science",
+    description: "Master Python programming for data analysis, visualization, and machine learning.",
+    instructor: "Alice Brown",
+    duration: "10 weeks",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToc1bnD7rCvXMinX06dBFyhOuqCqc60DIzFg&s",
+    price: "$150",
+    rating: 4.9,
+    courseNumber: 180
+  },
+  {
+    id: "4",
+    name: "Web Development Bootcamp",
+    description: "A comprehensive bootcamp covering front-end and back-end web development technologies.",
+    instructor: "Bob White",
+    duration: "12 weeks",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToc1bnD7rCvXMinX06dBFyhOuqCqc60DIzFg&s",
+    price: "$299",
+    rating: 4.6,
+    courseNumber: 350
+  }
+];
+

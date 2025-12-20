@@ -1,9 +1,4 @@
-const courses = [
-    {   
-        name : "course 1",
-        description : "ahsdyusag n sdy asuy daysgsduy gassgd",
-    }
-]
+import {courses} from '../courses/data'
 
 export function getCourseDetail(id){
     console.log('hi');

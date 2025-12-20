@@ -32,8 +32,8 @@ export default function CoursePage() {
 
   return (
     <>
-      <div>CoursePage {id}</div>
-      <div className="row">
+      {/* <div>CoursePage {id}</div> */}
+      <div className="">
         {loading ? (
           <p>Loading course details...</p> 
         ) : courseData ? (
@@ -42,7 +42,7 @@ export default function CoursePage() {
           <p>Course not found.</p>
         )}
       </div>
-      <div className="row">
+      <div className="">
         <Reservation />
       </div>
     </>
