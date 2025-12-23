@@ -10,7 +10,6 @@ export default function NavBar() {
             style={{ maxWidth: "100px", borderRadius: "60px" }}
             src={logoImage}
             alt=""
-            srcset=""
           />
         </Link>
 

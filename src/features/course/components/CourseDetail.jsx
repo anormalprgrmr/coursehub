@@ -2,7 +2,7 @@ import React from "react";
 import "./CourseDetail.css"; 
 
 export default function CourseDetail({ data }) {
-  // Handle cases where data might be null or undefined
+
   if (!data) {
     return <div className="course-detail-container error">Course data not available.</div>;
   }

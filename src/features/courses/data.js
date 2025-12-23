@@ -166,3 +166,38 @@ export const bookingHistory = [
     status:"Still Learning"
   }
 ]
+
+export const mockCourses = [
+  {
+    id: 1,
+    title: "React for Beginners",
+    level: "Beginner",
+    instructor: "John Doe",
+    price: 25,
+    rating: 4.6
+  },
+  {
+    id: 2,
+    title: "Advanced React",
+    level: "Advanced",
+    instructor: "Sarah Smith",
+    price: 45,
+    rating: 4.9
+  },
+  {
+    id: 3,
+    title: "Node.js API Development",
+    level: "Intermediate",
+    instructor: "John Doe",
+    price: 35,
+    rating: 4.4
+  },
+  {
+    id: 4,
+    title: "Go Backend Mastery",
+    level: "Intermediate",
+    instructor: "Ali Reza",
+    price: 30,
+    rating: 4.7
+  }
+];

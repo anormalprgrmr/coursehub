@@ -7,6 +7,7 @@ import SignupPage from "../features/auth/pages/SignupPage";
 import ProfilePage from "../features/profile/pages/ProfilePage";
 import ProtectedRoute from "../shared/components/protectedRoute/ProtectedRoute";
 import CoursePage from '../features/course/pages/CoursePage'
+import CourseSearch from '../features/search/pages/CourseSearch'
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ export const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "login", element: <LoginPage /> },
       { path: "signup", element: <SignupPage /> },
+      { path: "search", element: <CourseSearch /> },
       {
         path: "/profile",
         element: (
